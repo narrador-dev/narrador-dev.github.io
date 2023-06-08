@@ -36,70 +36,6 @@ header {
   margin-right: 10px; /* Add spacing between the logo and the site title */
 }
 
-.logo h1 {
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-  margin: 0; /* Remove default margin */
-}
-
-
-.menu {
-  list-style: none;
-}
-
-.menu li {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.hero {
-  background-image: url('hero-background.jpg');
-  background-size: cover;
-  background-position: center;
-  text-align: center;
-  padding: 100px 0;
-  color: #fff;
-}
-
-.hero h2 {
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
-.hero p {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.btn {
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: #1d366fff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.btn:hover {
-  background-color: #3966cbff;
-}
-
-.btn-primary {
-  background-color: #1d366fff;
-  color: #1d366fff;
-}
-
-.btn-primary:hover {
-  background-color: #3966cbff;
-}
-
 .section {
   padding: 60px 0;
 }
@@ -176,25 +112,3 @@ header {
   margin-bottom: 15px;
 }
 
-.form-group {
-  margin-bottom: 20px;
-}
-
-.form-group input,
-.form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.form-group textarea {
-  height: 120px;
-}
-
-footer {
-  background-color: #1d366fff;
-  padding: 10px 0;
-  color: #fff;
-  text-align: center;
-}
